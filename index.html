@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-разработчик</title>
+
+    <link rel="icon" href="img/Developer.svg" sizes="any" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="menu__icon" onclick="openNav()">
+                    <div class="icon-top"></div>
+                    <div class="icon"></div>
+                    <div class="icon-bottom"></div>
+                </div>
+            </div>
+        </header>
+
+        <nav id="nav" class="overlay" onclick="closeNav()">
+            <div class="overlay__content">
+                <a href="#" class="menu__icon-close" onclick="closeNav()">
+                <ul class="menu__list">
+                    <li><a href="#" class="menu__link">ПРО МЕНЯ</a></li>
+                    <li><a href="#" class="menu__link">МОЙ ОПЫТ</a></li>
+                    <li><a href="#" class="menu__link">МОИ НАВЫКИ</a></li>
+                    <li><a href="#" class="menu__link">МОИ РАБОТЫ</a></li>
+                    <li><a href="#" class="menu__link">ПРАЙС-ЛИСТ</a></li>
+                    <li><a href="#" class="menu__link">КОНТАКТЫ</a></li>
+                </ul>
+                <div class="menu__links">
+                    <a href="https://github.com/" target="_blank">
+                        <img src="/img/Github.svg" alt="Github">
+                    </a> 
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="/img/Instagram.svg" alt="Instagram" >
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="/img/Facebook.svg" alt="Facebook" >
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="background">
+            <aside class="aside__menu">
+                <div class="aside__content">
+                    <h3 class="aside__text">Меня зовут Александра Смит</h3>
+                    <div class="aside__line"></div>
+                    
+                    <a href="https://github.com/" target="_blank">
+                        <img src="/img/Github.svg" alt="Github">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="/img/Instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="/img/Facebook.svg" alt="Facebook">
+                    </a>
+                </div>
+            </aside>
+
+            <div class="fullscreen__body">
+
+                <div class="fullscreen__content">
+                    <h3 class="fullscreen__text circle">Меня зовут Александра Смит</h3>
+                    <h1 class="fullscreen__title">Я web-разработчик из города Москва</h1>
+
+                    <div class="content__button">
+                        <button class="button">Портфолио</button>
+                        <button class="button button__text">Портфолио</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fullscreen">
+            <div class="fullscreen__body content__column">
+                <h3 class="fullscreen__text circle circle__title">Опыт</h3>
+                <h2 class="fullscreen__heading heading">Чем я буду полезна</h2>
+                <div class="fullscreen__line"></div>
+
+                <div class="content">
+                    <div class="content__body">
+                        <div class="item__container">
+                            <span class="item__title">Образование</span>
+                            <div class="item__block">
+                                <div class="block__container">
+                                    <div class="hr__line"></div>
+                                    <div class="block">
+                                        <span class="item">МГТУ им. Н. Э. Баумана</span>
+                                        <span class="item__text">Диплом магистра | Москва (2014-2020)</span>
+                                    </div>
+                                </div>
+                                <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </p>
+                            </div>
+                        </div>
+                        <div class="item__container">
+                            <div class="item__block">
+                                <div class="block__container">
+                                    <div class="hr__line"></div>
+                                    <div class="block">
+                                        <span class="item">Udemy</span>
+                                        <span class="item__text">Курсы по Web-разработке</span>
+                                    </div>
+                                </div>
+                                <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content__body">
+                        <div class="item__container">
+                            <span class="item__title">Опыт работы</span>
+                            <div class="item__block">
+                                <div class="block__container">
+                                    <div class="hr__line"></div>
+                                    <div class="block">
+                                        <span class="item">Front-End Developer</span>
+                                        <span class="item__text">EPAM | Москва (2018-2019)</span>
+                                    </div>
+                                </div>
+                                <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </p>
+                            </div>
+                        </div>
+                        <div class="item__container">
+                            <div class="item__block">
+                                <div class="block__container">
+                                    <div class="hr__line"></div>
+                                    <div class="block">
+                                        <span class="item">UI/UX Designer</span>
+                                        <span class="item__text">Squad Team | Москва (2018)</span>
+                                    </div>
+                                </div>
+                                <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="fullscreen">
+            <div class="fullscreen__body content__row">
+                <div class="photo">
+                    <img src="/img/Photo.png" alt="Photo" >
+                </div>
+                    <div class="contacts">
+                        <h3 class="fullscreen__text circle">Контакты</h3>
+                        <h2 class="fullscreen__heading">Свяжитесь со мной</h2>
+                        <div class="contacts__container">
+                        <div class="fullscreen__line"></div>
+                        <h5>Любым удобным для вас способом:</h5>
+                        <div class="contacts__links">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="/img/Facebook.svg" alt="Facebook" width="30" height="30">
+                            </a>
+                            <a href="https://web.telegram.org/k/" target="_blank">
+                                <img src="/img/Telegram.svg" alt="Telegram">
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="/img/Instagram.svg" alt="Instagram" width="30" height="30">
+                            </a>
+                        </div>
+                        <h5>Или оставьте ваши данные и я сама вам напишу:</h5>
+
+                        <form class="form" action="#">
+                            <div class="input__box">
+                                <div class="input__field field">
+                                    <input type="text" id="name" class="item">
+                                    <div class="error__text">Name can't be blank</div>
+                                    <label for="name">Ваше имя</label>
+                                </div>
+                                <div class="input__field field">
+                                    <input type="text" id="email" class="item">
+                                    <div class="error__text">Email can't be blank</div>
+                                    <label for="email">Ваша почта</label>
+                                </div>
+                            </div>
+                            <div class="input__field field textarea">
+                                <label for="textarea">Ваше сообщение</label>
+                                <textarea name="textarea" id="textarea" class="item"></textarea>
+                                <div class="error__text">Message can't be blank</div>
+                            </div>
+                            <button type="submit"  class="button">Отправить сообщение</button> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
